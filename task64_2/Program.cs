@@ -1,4 +1,7 @@
-﻿Console.OutputEncoding = System.Text.Encoding.UTF8;
+﻿//Задача 64(2): Задайте значения M и N. Напишите программу, которая
+//выдает все натуральные числа в промежутке от M до N.
+
+Console.OutputEncoding = System.Text.Encoding.UTF8;
 Console.Write("Введите число M: ");
 int M = Convert.ToInt16(Console.ReadLine());
 Console.Write("Введите число N: ");
